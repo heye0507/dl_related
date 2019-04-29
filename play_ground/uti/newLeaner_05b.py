@@ -110,7 +110,7 @@ class NewLearner():
 
         finally:
             for cb in self.cbs: cb.after_fit()
-            #self.remove(cb)
+            #self.cbs.clear()
 
 
 class Accuracy(Callback):
