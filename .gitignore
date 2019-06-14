@@ -1,4 +1,6 @@
 .ipynb_checkpoints/
 __pycache__/
+data/
+NIC_dataset/
 models/
 *.csv
